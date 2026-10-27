@@ -1,0 +1,6 @@
+{
+  "name": "AcoustiJam - Audio & Speech Jammer Console",
+  "description": "Tactical acoustic masking and speech jamming console featuring real-time Delayed Auditory Feedback (DAF), ultrasonic microphone pulse disruptor, synthetic babble noise, and real-time spectrum analysis.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

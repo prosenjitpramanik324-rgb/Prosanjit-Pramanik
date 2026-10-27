@@ -1,0 +1,58 @@
+import { ReadingChallenge } from './types';
+
+export const READING_CHALLENGES: ReadingChallenge[] = [
+  {
+    id: 'peter-piper',
+    title: 'Peter Piper Plosive Test',
+    difficulty: 'Easy',
+    category: 'Plosive Articulation',
+    recommendedDelayMs: 195,
+    targetSeconds: 15,
+    text: "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?",
+  },
+  {
+    id: 'betty-botter',
+    title: 'Betty Botter Batter Rush',
+    difficulty: 'Hard',
+    category: 'Vowel Resonator',
+    recommendedDelayMs: 210,
+    targetSeconds: 22,
+    text: "Betty Botter bought some butter, but she said the butter's bitter. If I put it in my batter, it will make my batter bitter. But a bit of better butter will make my bitter batter better. So 'twas better Betty Botter bought a bit of better butter!",
+  },
+  {
+    id: 'unique-new-york',
+    title: 'Unique New York Rapid Loop',
+    difficulty: 'Easy',
+    category: 'Nasal & Glide Shift',
+    recommendedDelayMs: 180,
+    targetSeconds: 14,
+    text: "You know New York, you need New York, you know you need unique New York. Truly rural, truly rural, Irish wristwatch, Swiss wristwatch. Toy boat, toy boat, toy boat!",
+  },
+  {
+    id: 'sixth-sick-sheik',
+    title: 'The Sixth Sick Sheik',
+    difficulty: 'Extreme',
+    category: 'Sibilant Jamming Peak',
+    recommendedDelayMs: 200,
+    targetSeconds: 18,
+    text: "The sixth sick sheik's sixth sheep's sick. Pad kid poured curd pulled cod. Black background, brown background. Selfish shellfish, selfish shellfish, selfish shellfish!",
+  },
+  {
+    id: 'gettysburg',
+    title: 'Gettysburg Address Cadence',
+    difficulty: 'Hard',
+    category: 'Rhythmic Monologue',
+    recommendedDelayMs: 225,
+    targetSeconds: 25,
+    text: "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal.",
+  },
+  {
+    id: 'tech-specs',
+    title: 'Acoustic Cyber Security Brief',
+    difficulty: 'Hard',
+    category: 'Technical Speech',
+    recommendedDelayMs: 190,
+    targetSeconds: 24,
+    text: "Ultrasonic transducers emit intermodulation distortion chirps across non-linear MEMS diaphragms, systematically overwhelming low-noise preamplifiers and digital beamforming micro-arrays.",
+  },
+];
